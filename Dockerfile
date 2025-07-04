@@ -1,4 +1,4 @@
-FROM php:8.4.8-cli
+FROM php:8.4.10-cli
 MAINTAINER Shane Mc Cormack <dataforce@dataforce.org.uk>
 
 COPY errors.ini /usr/local/etc/php/conf.d/errors.ini
